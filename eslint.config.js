@@ -1,10 +1,10 @@
-import js from '@eslint/js';
-import css from '@eslint/css';
-import { defineConfig } from 'eslint/config';
-import prettier from 'eslint-config-prettier';
-import pluginReact from 'eslint-plugin-react';
-import prettierPlugin from 'eslint-plugin-prettier';
-import globals from 'globals';
+import js from '@eslint/js'
+import css from '@eslint/css'
+import { defineConfig } from 'eslint/config'
+import prettier from 'eslint-config-prettier'
+import pluginReact from 'eslint-plugin-react'
+import prettierPlugin from 'eslint-plugin-prettier'
+import globals from 'globals'
 
 export default defineConfig([
   {
@@ -31,6 +31,7 @@ export default defineConfig([
     rules: {
       'prettier/prettier': 'error',
       'react/react-in-jsx-scope': 'off',
+      'react/react-in-jsx-scope': 'off',
     },
     settings: {
       react: {
@@ -49,4 +50,4 @@ export default defineConfig([
       'css/use-baseline': 'off',
     },
   },
-]);
+])
